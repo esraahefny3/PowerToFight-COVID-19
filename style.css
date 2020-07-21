@@ -1,0 +1,29 @@
+body {
+  font-family: 'Open Sans' ;
+}
+
+
+.carousel-item:after {
+ content:"";
+ display:block;
+ position:absolute;
+ top:0;
+ bottom:0;
+ left:0;
+ right:0;
+ background:rgba(0,0,0,0.7);
+}
+.modal-notify .modal-header {
+   border-radius: 3px 3px 0 0;
+}
+.modal-notify .modal-content {
+   border-radius: 3px;
+}
+.close {
+    color: #fff;
+    opacity: 1;
+}
+
+.navbar-nav .active {
+  color: #B22222 !important;
+}
